@@ -1,0 +1,21 @@
+{
+  "name": "testing-tool",
+  "version": "1.0.0",
+  "description": "UI testing tool using OpenAI and Playwright",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.0.0",
+    "playwright": "^1.45.0",
+    "uuid": "^9.0.0"
+  }
+}
+
